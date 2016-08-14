@@ -1,0 +1,28 @@
+{
+  "name": "angular-express-blog-my",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wushaowei001/angular-express-blog-my.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wushaowei001/angular-express-blog-my/issues"
+  },
+  "homepage": "https://github.com/Wushaowei001/angular-express-blog-my#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "mongoose": "^4.5.8",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.0"
+  }
+}
