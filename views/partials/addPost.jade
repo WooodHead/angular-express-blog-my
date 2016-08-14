@@ -1,1 +1,9 @@
 h2 addPost.jade
+
+form
+  .form-group
+    input(type='text',ng-model='form.title')
+  .form-group
+    textarea(ng-model='form.text')
+  .form-group
+    button(type='submit',ng-click='submitPost()') Save
